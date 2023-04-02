@@ -1,0 +1,40 @@
+@page "/converters"
+
+@using WebTools.Models.Converters
+
+<h3>Converters</h3>
+
+<EditForm class="vstack gap-3" Model="LengthModel">
+  <div>
+    <label for="centimeter">Centimeter:</label>
+    <input id="centimeter" type="number" @bind="LengthModel.Centimeter" @bind:event="oninput"/>
+  </div>
+
+  <div>
+    <label for="inchOnly">Total Inch:</label>
+    <input id="inchOnly" type="number" @bind="LengthModel.TotalInch" @bind:event="oninput"/>
+  </div>
+
+  <div>
+    <label for="footOnly">Total Foot:</label>
+    <input id="footOnly" type="number" @bind="LengthModel.TotalFoot" @bind:event="oninput"/>
+  </div>
+
+  <div>
+    <label for="foot">Foot:</label>
+    <input id="foot" type="number" @bind="LengthModel.Foot" style="width: 50px;" @bind:event="oninput"/>
+    <label for="foot">Inch:</label>
+    <input id="inch" type="number" @bind="LengthModel.Inch" @bind:event="oninput"/>
+  </div> 
+
+</EditForm>
+
+@code {
+  public LengthModel LengthModel { get; set; } = new LengthModel();
+
+  protected override async Task OnInitializedAsync()
+  {
+    
+  }
+
+}

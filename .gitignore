@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.idea/
+/.vs/
+/WebTools/bin
+/WebTools/obj
+/WebTools.Tests/bin/Debug/net7.0
+/WebTools.Tests/obj/Debug/net7.0
+/WebTools.Tests/obj
+/WebTools/Properties/PublishProfiles

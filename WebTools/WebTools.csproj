@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.1" PrivateAssets="all" />
   </ItemGroup>
@@ -18,6 +19,24 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Utils\PeriodicExecutor.Contracts.cs">
+      <DependentUpon>PeriodicExecutor.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Utils\ActionDisposable.Utils.cs">
+      <DependentUpon>ActionDisposable.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Utils\PeriodicExecutor.Ext.cs">
+      <DependentUpon>PeriodicExecutor.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Services\AppStorageService.Contracts.cs">
+      <DependentUpon>AppStorageService.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Services\AppStorageService.Base.cs">
+      <DependentUpon>AppStorageService.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>

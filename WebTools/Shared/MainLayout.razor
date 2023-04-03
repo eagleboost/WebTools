@@ -1,4 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using WebTools.Utils
+@inherits LayoutComponentBase
+
+@inject IPeriodicExecutor PeriodicExecutor
 
 <div class="page">
   <div class="sidebar">
@@ -15,3 +18,11 @@
     </article>
   </main>
 </div>
+
+@code
+{
+  protected override void OnInitialized()
+  {
+    PeriodicExecutor.CastTo<PeriodicExecutor>().Start();
+  }
+}

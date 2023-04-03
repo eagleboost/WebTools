@@ -1,40 +1,69 @@
 @page "/converters"
 
 @using WebTools.Models.Converters
+@using WebTools.Services
+@using WebTools.Utils
+@using static Utils.RefUtils
+
+@inject IAppStorageService appStorageService
+@inject IPeriodicExecutor PeriodicExecutor
+
+@implements IDisposable
 
 <h3>Converters</h3>
 
 <EditForm class="vstack gap-3" Model="LengthModel">
-  <div>
-    <label for="centimeter">Centimeter:</label>
-    <input id="centimeter" type="number" @bind="LengthModel.Centimeter" @bind:event="oninput"/>
+  <div class="form-group row">
+    <label for="name" class="col-md-1 col-form-label">Centimeter:</label>
+    <div class="col-md-10">
+      <input id="centimeter" type="number" @bind="LengthModel.Centimeter" @bind:event="oninput"/>
+    </div>
   </div>
-
-  <div>
-    <label for="inchOnly">Total Inch:</label>
-    <input id="inchOnly" type="number" @bind="LengthModel.TotalInch" @bind:event="oninput"/>
+  <div class="form-group row">
+    <label for="inchOnly" class="col-md-1 col-form-label">Total Inch:</label>
+    <div class="col-md-10">
+      <input id="inchOnly" type="number" @bind="LengthModel.TotalInch" @bind:event="oninput"/>
+    </div>
   </div>
-
-  <div>
-    <label for="footOnly">Total Foot:</label>
-    <input id="footOnly" type="number" @bind="LengthModel.TotalFoot" @bind:event="oninput"/>
+  <div class="form-group row">
+    <label for="footOnly" class="col-md-1 col-form-label">Total Foot:</label>
+    <div class="col-md-10">
+      <input id="footOnly" type="number" @bind="LengthModel.TotalFoot" @bind:event="oninput"/>
+    </div>
   </div>
-
-  <div>
-    <label for="foot">Foot:</label>
-    <input id="foot" type="number" @bind="LengthModel.Foot" style="width: 50px;" @bind:event="oninput"/>
-    <label for="foot">Inch:</label>
-    <input id="inch" type="number" @bind="LengthModel.Inch" @bind:event="oninput"/>
-  </div> 
-
+  <div class="form-group row">
+    <label for="foot" class="col-md-auto">Foot:</label>
+    <div class="col-md-10">
+      <input id="foot" type="number" @bind="LengthModel.Foot" style="width: 50px;" @bind:event="oninput"/>
+      <label for="inch" class="col-md-auto">Inch:</label>
+      <input id="inch" type="number" @bind="LengthModel.Inch" @bind:event="oninput"/>
+    </div>
+  </div>
 </EditForm>
 
 @code {
-  public LengthModel LengthModel { get; set; } = new LengthModel();
+  private IDisposable? _cleanup;
+
+  public LengthModel LengthModel { get; set; } = new();
 
   protected override async Task OnInitializedAsync()
   {
-    
+    var lengthModel = await appStorageService.LoadItemAsync<LengthModel>(nameof(LengthModel));
+    if (lengthModel != null)
+    {
+      LengthModel = lengthModel;
+    }
+    DisposeReset(ref _cleanup, PeriodicExecutor.HookExecute(HandleExecute));
+  }
+
+  public void Dispose()
+  {
+    DisposeEx(ref _cleanup);
+  }
+
+  private void HandleExecute(object? sender, EventArgs e)
+  {
+    appStorageService.SaveItemAsync(nameof(LengthModel), LengthModel);
   }
 
 }

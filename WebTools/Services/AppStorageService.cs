@@ -21,7 +21,7 @@ public sealed class AppStorageService : AppStorageServiceBase
     {
       await _webDavService.SaveItemAsync(id, item).ConfigureAwait(false);
     }
-    catch (Exception e)
+    catch (Exception)
     {
     }
     finally
@@ -42,7 +42,7 @@ public sealed class AppStorageService : AppStorageServiceBase
       
       return await LoadLocalItemAsync<T>(id).ConfigureAwait(false);
     }
-    catch (Exception e)
+    catch (Exception)
     {
       return await LoadLocalItemAsync<T>(id).ConfigureAwait(false);
     }

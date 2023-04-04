@@ -5,7 +5,7 @@
 @using WebTools.Utils
 @using static Utils.RefUtils
 
-@inject IAppStorageService appStorageService
+@inject IAppStorageService AppStorageService
 @inject IPeriodicExecutor PeriodicExecutor
 
 @implements IDisposable
@@ -14,28 +14,28 @@
 
 <EditForm class="vstack gap-3" Model="LengthModel">
   <div class="form-group row">
-    <label for="name" class="col-md-1 col-form-label">Centimeter:</label>
-    <div class="col-md-10">
+    <label for="centimeter" class="col-md-1 col-form-label">Centimeter:</label>
+    <div class="col-md-1">
       <input id="centimeter" type="number" @bind="LengthModel.Centimeter" @bind:event="oninput"/>
     </div>
   </div>
   <div class="form-group row">
     <label for="inchOnly" class="col-md-1 col-form-label">Total Inch:</label>
-    <div class="col-md-10">
+    <div class="col-md-1">
       <input id="inchOnly" type="number" @bind="LengthModel.TotalInch" @bind:event="oninput"/>
     </div>
   </div>
   <div class="form-group row">
     <label for="footOnly" class="col-md-1 col-form-label">Total Foot:</label>
-    <div class="col-md-10">
+    <div class="col-md-1">
       <input id="footOnly" type="number" @bind="LengthModel.TotalFoot" @bind:event="oninput"/>
     </div>
   </div>
   <div class="form-group row">
-    <label for="foot" class="col-md-auto">Foot:</label>
-    <div class="col-md-10">
+    <label for="foot" class="col-md-1">Foot:</label>
+    <div class="col-md-1">
       <input id="foot" type="number" @bind="LengthModel.Foot" style="width: 50px;" @bind:event="oninput"/>
-      <label for="inch" class="col-md-auto">Inch:</label>
+      <label for="inch" class="col-md-1">Inch:</label>
       <input id="inch" type="number" @bind="LengthModel.Inch" @bind:event="oninput"/>
     </div>
   </div>
@@ -48,7 +48,7 @@
 
   protected override async Task OnInitializedAsync()
   {
-    var lengthModel = await appStorageService.LoadItemAsync<LengthModel>(nameof(LengthModel));
+    var lengthModel = await AppStorageService.LoadItemAsync<LengthModel>(nameof(LengthModel));
     if (lengthModel != null)
     {
       LengthModel = lengthModel;
@@ -63,7 +63,6 @@
 
   private void HandleExecute(object? sender, EventArgs e)
   {
-    appStorageService.SaveItemAsync(nameof(LengthModel), LengthModel);
+    AppStorageService.SaveItemAsync(nameof(LengthModel), LengthModel);
   }
-
 }

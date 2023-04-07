@@ -1,7 +1,7 @@
 {
-  "name": "WebTools",
-  "short_name": "WebTools",
-  "start_url": "./WebTools/",
+  "name": "Jason's Web Tools",
+  "short_name": "Web Tools",
+  "start_url": "./WebTools",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#03173d",
@@ -12,5 +12,10 @@
       "type": "image/png",
       "sizes": "512x512"
     },
-  ],
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
 }

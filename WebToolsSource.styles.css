@@ -18,6 +18,33 @@ a[b-rj70wt2z2a] {
 a:hover[b-rj70wt2z2a] {
     color: #4e567e;
 }
+/* /Shared/LengthConverters.razor.rz.scp.css */
+.grid-container-two-columns[b-9ebmqrjwno] {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+.grid-container[b-9ebmqrjwno] {
+    display: grid;
+}
+
+.input-item[b-9ebmqrjwno] {
+    margin: 2px;
+}
+
+.column-label[b-9ebmqrjwno] {
+    margin-right: 5px;
+}
+
+.horizontal-align-right[b-9ebmqrjwno] {
+    display: flex; 
+    justify-content: flex-end
+}
+
+.vertical-align-center[b-9ebmqrjwno] {
+    display: flex;
+    align-items: center;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-glkhn9bw9q] {
     position: relative;

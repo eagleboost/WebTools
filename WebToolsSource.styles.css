@@ -19,9 +19,19 @@ a:hover[b-rj70wt2z2a] {
     color: #4e567e;
 }
 /* /Shared/LengthConverters.razor.rz.scp.css */
+.section-div[b-9ebmqrjwno] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .grid-container-two-columns[b-9ebmqrjwno] {
     display: grid;
     grid-template-columns: max-content auto;
+}
+
+.grid-container-two-columns-even[b-9ebmqrjwno] {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .grid-container[b-9ebmqrjwno] {

@@ -1,58 +1,60 @@
-/* /Shared/ConverterHeader.razor.rz.scp.css */
-.converter-header-row[b-rj70wt2z2a] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    padding: 1rem;
-    gap: 2rem;
+/* /Shared/DayWeatherSection.razor.rz.scp.css */
+.horizontal-align-center[b-jfehtryp3t] {
     display: flex;
     justify-content: center;
-    height: 3.5rem;
-    align-items: center;
+}
+/* /Shared/HourlyWeatherSection.razor.rz.scp.css */
+.grid-container-24-columns[b-ji5yrovtou] {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
 }
 
-a[b-rj70wt2z2a] {
-    text-decoration: none;
-    color: #0071c1;
+.hour-item[b-ji5yrovtou]{
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-a:hover[b-rj70wt2z2a] {
-    color: #4e567e;
+.weather-icon[b-ji5yrovtou]{
+    width: 30px;
+    height: 30px;
 }
-/* /Shared/LengthConverters.razor.rz.scp.css */
-.section-div[b-9ebmqrjwno] {
+/* /Shared/LengthConvertersSection.razor.rz.scp.css */
+.section-div[b-1pv7sp2994] {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.grid-container-two-columns[b-9ebmqrjwno] {
+.grid-container-two-columns[b-1pv7sp2994] {
     display: grid;
     grid-template-columns: max-content auto;
 }
 
-.grid-container-two-columns-even[b-9ebmqrjwno] {
+.grid-container-two-columns-even[b-1pv7sp2994] {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.grid-container[b-9ebmqrjwno] {
+.grid-container[b-1pv7sp2994] {
     display: grid;
 }
 
-.input-item[b-9ebmqrjwno] {
+.input-item[b-1pv7sp2994] {
     margin: 2px;
     min-width: 80px;
 }
 
-.column-label[b-9ebmqrjwno] {
+.column-label[b-1pv7sp2994] {
     margin-right: 5px;
 }
 
-.horizontal-align-right[b-9ebmqrjwno] {
+.horizontal-align-right[b-1pv7sp2994] {
     display: flex; 
     justify-content: flex-end
 }
 
-.vertical-align-center[b-9ebmqrjwno] {
+.vertical-align-center[b-1pv7sp2994] {
     display: flex;
     align-items: center;
 }

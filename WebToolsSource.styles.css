@@ -1,7 +1,61 @@
-/* /Shared/DayWeatherSection.razor.rz.scp.css */
-.horizontal-align-center[b-jfehtryp3t] {
+/* /Shared/DayWeatherHead.razor.rz.scp.css */
+.horizontal-align-center[b-o6ss7umxlj] {
     display: flex;
     justify-content: center;
+}
+
+.large-icon[b-o6ss7umxlj] {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.head-text[b-o6ss7umxlj]{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+/* /Shared/DayWeatherSection.razor.rz.scp.css */
+.grid-container-4-columns[b-jfehtryp3t] {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.small-text[b-jfehtryp3t]{
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+}
+
+.weather-icon[b-jfehtryp3t]{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.collapsible[b-jfehtryp3t] {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active[b-jfehtryp3t], .collapsible:hover[b-jfehtryp3t] {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content[b-jfehtryp3t] {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
 /* /Shared/HourlyWeatherSection.razor.rz.scp.css */
 .grid-container-24-columns[b-ji5yrovtou] {
@@ -9,16 +63,25 @@
     grid-template-columns: max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content max-content;
 }
 
+.grid-container-4-columns[b-ji5yrovtou] {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
 .hour-item[b-ji5yrovtou]{
-    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.small-text[b-ji5yrovtou]{
+    font-size: x-small;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .weather-icon[b-ji5yrovtou]{
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 /* /Shared/LengthConvertersSection.razor.rz.scp.css */
 .section-div[b-1pv7sp2994] {

@@ -801,15 +801,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-aBy8lLINzV5+3lGm\/fH2kvE\/dY19wlmK237pzt+SvhA=",
+      "hash": "sha256-hwb1+MQXP37+zP7d7njskuSjChpA25NZJfR9CcqB+TI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-2bSc3qO7KhcU+2fKNGgKBPHCoki2+S8pj2hPNn2p7cs=",
+      "hash": "sha256-PqbUEEr05B\/NLd9YkqlNDt9kg64WbtbosoRW8DyR0x0=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
-      "hash": "sha256-AKvvcbQOCwM9bxX5E2T6zdUWTOlaHC\/avBogYnq4h9M=",
+      "hash": "sha256-yK4KUsN0tna4JjQIUrlW7bMUQSG6UoDvmxG0yJaBYss=",
       "url": "WebToolsSource.styles.css"
     },
     {
@@ -829,7 +829,7 @@
       "url": "css\/open-iconic\/FONT-LICENSE"
     },
     {
-      "hash": "sha256-sr\/YQuBmMUhi+xIhaTU80ZukUeVXKkbP0084+NnEvfA=",
+      "hash": "sha256-BJ\/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
       "url": "css\/open-iconic\/font\/css\/open-iconic-bootstrap.min.css"
     },
     {
@@ -881,5 +881,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "Fhsht+fg"
+  "version": "CGv47j2L"
 };

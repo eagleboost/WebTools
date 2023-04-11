@@ -24,7 +24,7 @@
 .small-text[b-jfehtryp3t]{
     display: flex;
     align-items: center;
-    font-size: x-small;
+    font-size: small;
 }
 
 .weather-icon[b-jfehtryp3t]{
@@ -73,7 +73,7 @@
 }
 
 .small-text[b-ji5yrovtou]{
-    font-size: x-small;
+    font-size: small;
     display: flex;
     flex-direction: column;
     justify-content: center;

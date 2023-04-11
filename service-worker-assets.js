@@ -801,15 +801,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-w4jpyCK5TgvcaLovnzQ0dE\/buoPYuWV+iXtkzPH7ksQ=",
+      "hash": "sha256-c0XnTOc5cnqZPc3bcPqBzbuGNAU7cqE5kQ8MmP\/u6n8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-suJeae6Em0iNRBbaJK+PDAGjO+BoMfn61uu28Sx78hs=",
+      "hash": "sha256-s1AeahBnWgKTX7pwmxr1hyZ9nsE2Hvae33MLOIy1FBc=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
-      "hash": "sha256-vbLz180PtJ2pTS4OU5mfPS+vwwItQ++vlW4l+ubZtwM=",
+      "hash": "sha256-\/elNMbRPWh1VjyfTYniIgUDrAKcxi3hLlCLsbRtPOmU=",
       "url": "WebToolsSource.styles.css"
     },
     {
@@ -873,6 +873,70 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-to8ENJgO+L8jcmJfKPeHhU9bcYsOjc0IJyX+6Z\/DvVc=",
+      "url": "images\/clear-day.svg"
+    },
+    {
+      "hash": "sha256-C9zubqqdbQdOULBcSH3dym3\/b2in71iz1DqNnxHSK6g=",
+      "url": "images\/clear-night.svg"
+    },
+    {
+      "hash": "sha256-o9fHeInT+dYEc4OHdc6qSd9vCVWydSBgA8Tt9xgNN88=",
+      "url": "images\/cloudy.svg"
+    },
+    {
+      "hash": "sha256-mxcHW5\/VmipRCS7pWN2cgz8C6p3fRT8oxh9E8t+Jl18=",
+      "url": "images\/fog.svg"
+    },
+    {
+      "hash": "sha256-xzSUThdZdMAbqxngA8kVzHOFoYN0ZNS6SQsgpcLSmWE=",
+      "url": "images\/partly-cloudy-day.svg"
+    },
+    {
+      "hash": "sha256-nkDRoLjB6Q2UFIF59Ic\/ZUkVgcG4rrGSqU4dido0Z18=",
+      "url": "images\/partly-cloudy-night.svg"
+    },
+    {
+      "hash": "sha256-Gb2Iiy8MJlN9xZXB73tC6Q+3yKM0TbpZbImiiaWLLM4=",
+      "url": "images\/rain.svg"
+    },
+    {
+      "hash": "sha256-uQn5WW91n6rXRXGRm5n0Ccx2f0CDJK3NAf775xHWSNg=",
+      "url": "images\/showers-day.svg"
+    },
+    {
+      "hash": "sha256-ZwFD2BXisTF\/bJz9DCmGFedJyVh3g3R4QcjhCVn2k5A=",
+      "url": "images\/showers-night.svg"
+    },
+    {
+      "hash": "sha256-fCGsypkRLWLSz0j8Q1Yy92IDgFsUn5nasMWRjM0kbPw=",
+      "url": "images\/snow-showers-day.svg"
+    },
+    {
+      "hash": "sha256-tRpnDPFFy0vaJw2EHMjNfqrSglMBY+IG1QAX9eVwL0U=",
+      "url": "images\/snow-showers-night.svg"
+    },
+    {
+      "hash": "sha256-f94QYehcQB7ecUfQ5T79pCCJaXtrWbgBARE+pi7WEhU=",
+      "url": "images\/snowy.svg"
+    },
+    {
+      "hash": "sha256-E1Ask4M2n7Z\/5ED104EsqhhCzw5MGOLw0Nogvk5jwaw=",
+      "url": "images\/thunder-rain-day.svg"
+    },
+    {
+      "hash": "sha256-CyTYjmuokdY5g9LooeCJL7E\/ucBIq6AAyERt6nHYhvs=",
+      "url": "images\/thunder-rain-night.svg"
+    },
+    {
+      "hash": "sha256-XbsHV1R7Lpd6cAMzCe4vtGeXl7wX\/\/SodC0bwUI8Pn0=",
+      "url": "images\/thunder-rain.svg"
+    },
+    {
+      "hash": "sha256-SjcT2+VndM7zXd5Dvtg8j5uWVgY3gUMXPmWgP40dNxQ=",
+      "url": "images\/wind.svg"
+    },
+    {
       "hash": "sha256-HVxTlAW\/dTPHecH392GRASYJRiWZdrtbwWHOKpiKsuc=",
       "url": "index.html"
     },
@@ -881,5 +945,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "+wHt+gjj"
+  "version": "6BDWec7I"
 };

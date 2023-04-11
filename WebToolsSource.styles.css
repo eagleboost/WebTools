@@ -1,4 +1,32 @@
+/* /Pages/Weather.razor.rz.scp.css */
+.main-div[b-33epzqi6fl] {
+    color: white;
+    background: rgb(130,129,212);
+    background: linear-gradient(0deg, rgba(130,129,212,1) 0%, rgba(152,157,232,1) 100%);
+}
+
+.rounded-corner[b-33epzqi6fl] {
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px;
+    background: #7475d6;
+    color: white;
+}
+.grid-container-2-columns[b-33epzqi6fl] {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+/* /Shared/CheckBox.razor.rz.scp.css */
+.vertical-align-center[b-abcgc5v1lc] {
+    display: flex;
+    align-items: center;
+}
 /* /Shared/DayWeatherHead.razor.rz.scp.css */
+.grid-container-2-columns[b-o6ss7umxlj] {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .horizontal-align-center[b-o6ss7umxlj] {
     display: flex;
     justify-content: center;
@@ -7,36 +35,43 @@
 .large-icon[b-o6ss7umxlj] {
     display: flex;
     justify-content: center;
-    width: 100px;
+    margin-top: 30px;
+    width: 150px;
 }
 
-.head-text[b-o6ss7umxlj]{
-    font-size: small;
-    display: flex;
-    justify-content: center;
+.head-large-text[b-o6ss7umxlj]{
+    font-size: 5em;
 }
 /* /Shared/DayWeatherSection.razor.rz.scp.css */
 .grid-container-4-columns[b-jfehtryp3t] {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 40% 10% 10% 20% 20%;
 }
+
+.bold-text[b-jfehtryp3t]{
+    font-weight: bold;
+}
+
+.right-align[b-jfehtryp3t]{
+    justify-content: flex-end;
+}
+
 
 .small-text[b-jfehtryp3t]{
     display: flex;
     align-items: center;
-    font-size: small;
 }
 
 .weather-icon[b-jfehtryp3t]{
     display: flex;
     align-items: center;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 
 .collapsible[b-jfehtryp3t] {
-    background-color: #eee;
-    color: #444;
+    background-color: transparent;
+    color: white;
     cursor: pointer;
     width: 100%;
     border: none;
@@ -73,15 +108,14 @@
 }
 
 .small-text[b-ji5yrovtou]{
-    font-size: small;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .weather-icon[b-ji5yrovtou]{
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 /* /Shared/LengthConvertersSection.razor.rz.scp.css */
 .section-div[b-1pv7sp2994] {

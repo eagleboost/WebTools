@@ -801,15 +801,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-c0XnTOc5cnqZPc3bcPqBzbuGNAU7cqE5kQ8MmP\/u6n8=",
+      "hash": "sha256-LLlmessGas1eItSKD+Ruh3wFbVzCIoOdYPOsYQHMGTQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-s1AeahBnWgKTX7pwmxr1hyZ9nsE2Hvae33MLOIy1FBc=",
+      "hash": "sha256-up65JGRAyOvVsfnbSg70fwd8SLesXNSQHNeBcQ4da9I=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
-      "hash": "sha256-\/elNMbRPWh1VjyfTYniIgUDrAKcxi3hLlCLsbRtPOmU=",
+      "hash": "sha256-ixB366gjELQw13zds9oqfuoyT19MhJzwiovnxuXlytU=",
       "url": "WebToolsSource.styles.css"
     },
     {
@@ -873,11 +873,11 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-to8ENJgO+L8jcmJfKPeHhU9bcYsOjc0IJyX+6Z\/DvVc=",
+      "hash": "sha256-CC+1ZR2KystFladVQC5mkzR0dP5LoLbkV\/6ltaFGqJ4=",
       "url": "images\/clear-day.svg"
     },
     {
-      "hash": "sha256-C9zubqqdbQdOULBcSH3dym3\/b2in71iz1DqNnxHSK6g=",
+      "hash": "sha256-NMRlOnLqbC6rXvO45NTK8FYPRSE69nRoVz2yrdCko60=",
       "url": "images\/clear-night.svg"
     },
     {
@@ -945,5 +945,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "6BDWec7I"
+  "version": "KuYg5KII"
 };

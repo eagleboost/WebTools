@@ -56,7 +56,6 @@
     justify-content: flex-end;
 }
 
-
 .small-text[b-jfehtryp3t]{
     display: flex;
     align-items: center;
@@ -82,15 +81,11 @@
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active[b-jfehtryp3t], .collapsible:hover[b-jfehtryp3t] {
-    background-color: #ccc;
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content[b-jfehtryp3t] {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
+.collapsible-content[b-jfehtryp3t] {
+    background-color: #8281d4;
 }
 /* /Shared/HourlyWeatherSection.razor.rz.scp.css */
 .grid-container-24-columns[b-ji5yrovtou] {
@@ -100,7 +95,7 @@
 
 .grid-container-4-columns[b-ji5yrovtou] {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 40% 25% 15% 15% 5%;
 }
 
 .hour-item[b-ji5yrovtou]{
@@ -109,8 +104,11 @@
 
 .small-text[b-ji5yrovtou]{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+.right-align[b-ji5yrovtou]{
+    justify-content: flex-end;
 }
 
 .weather-icon[b-ji5yrovtou]{

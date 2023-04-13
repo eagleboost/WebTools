@@ -801,15 +801,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-LLlmessGas1eItSKD+Ruh3wFbVzCIoOdYPOsYQHMGTQ=",
+      "hash": "sha256-XZt6rlcjBG3NntgvizOJ6wdgM+M9NRH3xTC1tNDnlt8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-up65JGRAyOvVsfnbSg70fwd8SLesXNSQHNeBcQ4da9I=",
+      "hash": "sha256-0L3SMHtXqM2+JID7a++cS1DZKnYeudPLQFkhVOVvBmA=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
-      "hash": "sha256-ixB366gjELQw13zds9oqfuoyT19MhJzwiovnxuXlytU=",
+      "hash": "sha256-eaTmNT9IQefoTlbZwBsauYPrDh5ierXw7CyXrR5F+JY=",
       "url": "WebToolsSource.styles.css"
     },
     {
@@ -897,6 +897,10 @@
       "url": "images\/partly-cloudy-night.svg"
     },
     {
+      "hash": "sha256-5oxKJ8GkEH28urotsiZaX+S7bwrBkNwH62OtmhaNSDU=",
+      "url": "images\/rain-drop.png"
+    },
+    {
       "hash": "sha256-Gb2Iiy8MJlN9xZXB73tC6Q+3yKM0TbpZbImiiaWLLM4=",
       "url": "images\/rain.svg"
     },
@@ -922,15 +926,15 @@
     },
     {
       "hash": "sha256-E1Ask4M2n7Z\/5ED104EsqhhCzw5MGOLw0Nogvk5jwaw=",
-      "url": "images\/thunder-rain-day.svg"
+      "url": "images\/thunder-showers-day.svg"
     },
     {
       "hash": "sha256-CyTYjmuokdY5g9LooeCJL7E\/ucBIq6AAyERt6nHYhvs=",
-      "url": "images\/thunder-rain-night.svg"
+      "url": "images\/thunder-showers-night.svg"
     },
     {
       "hash": "sha256-XbsHV1R7Lpd6cAMzCe4vtGeXl7wX\/\/SodC0bwUI8Pn0=",
-      "url": "images\/thunder-rain.svg"
+      "url": "images\/thunder-showers.svg"
     },
     {
       "hash": "sha256-SjcT2+VndM7zXd5Dvtg8j5uWVgY3gUMXPmWgP40dNxQ=",
@@ -945,5 +949,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "KuYg5KII"
+  "version": "iVhBPQCI"
 };

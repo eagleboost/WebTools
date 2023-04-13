@@ -43,9 +43,9 @@
     font-size: 5em;
 }
 /* /Shared/DayWeatherSection.razor.rz.scp.css */
-.grid-container-4-columns[b-jfehtryp3t] {
+.grid-container-5-columns[b-jfehtryp3t] {
     display: grid;
-    grid-template-columns: 40% 10% 10% 20% 20%;
+    grid-template-columns: 30% 20% 10% 10% 10% 20%;
 }
 
 .bold-text[b-jfehtryp3t]{
@@ -61,11 +61,28 @@
     align-items: center;
 }
 
+.precipitation-chance[b-jfehtryp3t] {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.precipitation-chance-text[b-jfehtryp3t]{
+    width: 40px;
+}
+
+.rain-drop-icon[b-jfehtryp3t]{
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+}
+
 .weather-icon[b-jfehtryp3t]{
     display: flex;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
 }
 
 .collapsible[b-jfehtryp3t] {
@@ -95,7 +112,7 @@
 
 .grid-container-4-columns[b-ji5yrovtou] {
     display: grid;
-    grid-template-columns: 40% 25% 15% 15% 5%;
+    grid-template-columns: 40% 25% 15% 20%;
 }
 
 .hour-item[b-ji5yrovtou]{
@@ -112,8 +129,25 @@
 }
 
 .weather-icon[b-ji5yrovtou]{
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
+}
+
+.precipitation-chance[b-ji5yrovtou] {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.precipitation-chance-text[b-ji5yrovtou]{
+    width: 40px;
+}
+
+.rain-drop-icon[b-ji5yrovtou]{
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
 }
 /* /Shared/LengthConvertersSection.razor.rz.scp.css */
 .section-div[b-1pv7sp2994] {

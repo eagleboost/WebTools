@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- (c) ammap.com | SVG weather icons -->
-<svg width="56" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="blur" x="-.24684" y="-.22892" width="1.4937" height="1.5576">
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
@@ -232,7 +232,7 @@
       ]]>
     </style>
   </defs>
-  <g transform="translate(16,-2)" filter="url(#blur)">
+  <g transform="translate(9,-0)" filter="url(#blur)">
     <g transform="matrix(.8 0 0 .8 16 4)">
       <g class="am-weather-moon-star-1"
         style="-moz-animation-delay:3s;-moz-animation-duration:5s;-moz-animation-iteration-count:1;-moz-animation-name:am-weather-moon-star-1;-moz-animation-timing-function:linear;-ms-animation-delay:3s;-ms-animation-duration:5s;-ms-animation-iteration-count:1;-ms-animation-name:am-weather-moon-star-1;-ms-animation-timing-function:linear;-webkit-animation-delay:3s;-webkit-animation-duration:5s;-webkit-animation-iteration-count:1;-webkit-animation-name:am-weather-moon-star-1;-webkit-animation-timing-function:linear">

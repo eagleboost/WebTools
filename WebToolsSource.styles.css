@@ -45,7 +45,7 @@
 /* /Shared/DayWeatherSection.razor.rz.scp.css */
 .grid-container-5-columns[b-jfehtryp3t] {
     display: grid;
-    grid-template-columns: 30% 20% 10% 10% 10% 20%;
+    grid-template-columns: 25% 20% 15% 10% 10% 20%;
 }
 
 .bold-text[b-jfehtryp3t]{
@@ -68,7 +68,7 @@
 }
 
 .precipitation-chance-text[b-jfehtryp3t]{
-    width: 40px;
+    width: 38px;
 }
 
 .rain-drop-icon[b-jfehtryp3t]{
@@ -112,7 +112,7 @@
 
 .grid-container-4-columns[b-ji5yrovtou] {
     display: grid;
-    grid-template-columns: 40% 25% 15% 20%;
+    grid-template-columns: 35% 25% 20% 20%;
 }
 
 .hour-item[b-ji5yrovtou]{
@@ -140,7 +140,7 @@
 }
 
 .precipitation-chance-text[b-ji5yrovtou]{
-    width: 40px;
+    width: 38px;
 }
 
 .rain-drop-icon[b-ji5yrovtou]{

@@ -115,6 +115,10 @@
     grid-template-columns: 35% 25% 20% 20%;
 }
 
+.past-hour-item[b-ji5yrovtou]{
+    color: darkgray;
+}
+
 .hour-item[b-ji5yrovtou]{
     margin-left: 6px;
 }

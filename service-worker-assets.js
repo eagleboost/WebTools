@@ -801,15 +801,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-L01cfnLiKc3IZVUvJmEfaE7Xb1HIGMQQP9Sjf6wWKeY=",
+      "hash": "sha256-g7R+NCISOjJ+HMDugqEWubMJcwufH4n+fURduiFijig=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-YIvRlOaw2MtPeQr4usSij1aumNguxpUTbxLI+0v2Bgs=",
+      "hash": "sha256-U\/4rpFb7Zt6Kr7QYAszER4b8uNmoAXe8k6HxRxfqfrQ=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
-      "hash": "sha256-Ib4E3CPxHtxRcKJvktdo6t+g9pe6fh3vsGNkZvo5hyU=",
+      "hash": "sha256-HYig9cQvejhBskah3Uo3adg03tHQomaCsNka9FHwrrM=",
       "url": "WebToolsSource.styles.css"
     },
     {
@@ -1013,5 +1013,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "\/P3OQixe"
+  "version": "v\/IsNW83"
 };

@@ -801,11 +801,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-e8NOUzqn7GH6DtQ4NLev6dxe\/jiFXf7bTnzCoKBh0gY=",
+      "hash": "sha256-z+oWZlJxcA3pJ07JvrZqezF7\/gzm4vhr1QGSVQPrCuQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-+\/V74tH593kN7L62fIwgmIuR1oHHmXeUsX3uyL4bmis=",
+      "hash": "sha256-XtbiVS9HE1CbCp1xGuGkpOmIlQh+KypkQ1xxxKEhPY0=",
       "url": "_framework\/WebToolsSource.dll"
     },
     {
@@ -1013,5 +1013,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "4fnY7ble"
+  "version": "R8JGVIQr"
 };
